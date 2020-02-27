@@ -2,14 +2,15 @@ import subprocess
 
 
 
-## defining reading and writing functions
+#defining reading and writing functions
 
-##CHANGE THIS TO SUIT YOUR CONFIG
+#CHANGE THIS TO SUIT YOUR CONFIG
 
-username = "influxuser"
-password = "influxuserpassword"
-address = "10.0.0.215"
+#TODO write documentation for code.
 
+username = "influxuser" #Your Influx username
+password = "influxuserpassword" #Your InfluxDB password
+address = "10.0.0.215" #Your InfluxDB host's IP (You can use "localhost")
 
 
 
@@ -40,10 +41,7 @@ def get_uptime():
 
 def write_to_influx(indata):
 
+   # TODO write function for influx
 
-
-current_time = 0 #set current time variable to 0
-
-current_time = read_data()
 
 print(get_uptime())
